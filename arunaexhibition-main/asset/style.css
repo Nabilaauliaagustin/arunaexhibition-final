@@ -1,0 +1,264 @@
+@font-face{
+    font-family: myFont;
+    src: url('abhayamedium.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    padding: 20px 100px;
+}
+
+.header img{
+    width: 110px;
+}
+
+.background{
+    min-height: 100vh;
+    background: url('headergelap.svg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.exhi-space{
+    height: 750px;
+    background: url('exhi-space.svg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.line{
+    border-bottom: 1px solid black;
+    margin: 0 25px 30px 25px;
+}
+
+.navbar{
+    display: flex;
+    float: right;
+}
+
+.navbar a{
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 40px;
+    margin-top: 5px;
+    color: black;
+}
+
+nav a:hover,
+nav a.active{
+    color:#333;
+    font-style: italic;
+}
+
+.text {
+    text-align: center;
+    padding: 245px 0 0 0;
+    font-size: 50px;
+    color: white;
+}
+
+
+.container-middle {
+    margin: 150px 100px 100px 100px;;
+    min-height: 100vh;
+    background: url('arunaexhi.svg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container-middle p{
+    padding: 170px 550px 0 110px;
+}
+
+.container-bottom{
+    margin: 120px 0;
+}
+
+.lokasi{
+    padding: 50px 0 0 90px;
+    font-size: 30px;
+}
+
+.bottom{
+    margin: 15px 0;
+    min-height: 100vh;
+    background: url('operational.svg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.alamat {
+    padding: 550px 1000px 0 100px;
+}
+
+button{
+    float: right;
+    margin: 0 1px 0 0;
+}
+
+.button-oval {
+    background-color: #b8b8b8; 
+    border: 2px black solid;
+    margin-right: 110px;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50%; /* Ini yang membuat tombol menjadi bulat */
+    cursor: pointer;
+}
+
+.button-oval a{
+    text-decoration: none;
+    color: black;
+}
+
+
+//project
+#container {
+    width: 100%;
+}
+
+.project h2{
+    font-size: 40px;
+    padding-left: 60px;
+}
+
+#gallery {
+    width: 100%;
+    height: auto;
+    display: flex;a
+    flex-decoration: row;
+    flex-wrap: wrap;
+    /*padding-left: 25px;*/
+}
+
+.project-item {
+    width: 200px;
+    height: 200px;
+    margin: 50px 98px 70px 98px;
+    padding-bottom: 300px;
+    padding-left: 25px;
+}
+
+.garis{
+    border-bottom: 1px solid black;
+    margin: 50px 25px 30px 25px;
+}
+
+/* exhibition*/
+
+.realisme{
+    margin: 50px 0 25px 50px;
+    height: 60px;
+    display: flex;
+}
+
+.pameranRealisme{
+    margin: 0 0 100px 50px;
+    float: left;
+}
+
+.text-container{
+    width: 50%;
+    float: right;
+    margin-bottom: 200px;
+}
+
+.judul{
+    font-size: 60px;
+}
+
+.deskripsi{
+    font-size: 20px;
+    margin: 25px 100px 0 0;
+}
+
+
+.headline{
+    margin: 0px 200px 0 0;
+    padding: 0 0 0 50px;
+    font-size: 50px;
+}
+
+.subline{
+    margin: 0px 200px 0 0;
+    padding: 0 0 0 50px;
+    font-size: 20px;
+}
+
+.next-event{
+    padding-bottom: 50px;
+}
+
+.next-event h2{
+    margin: 0px 200px 25px 0;
+    padding: 10px 0 0 50px;
+    font-size: 50px;
+}
+
+.next-event img{
+    width: 700px;
+}
+
+/*alert*/
+.alert {
+    background-color: #f44336; /* Warna merah */
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+/*footer*/
+
+
+.footer{
+    position: fixed;
+    bottom: 0;
+}
+
+.footer-container{
+    background-color: black;
+    width: 100%;
+    padding: 30px 100px;
+}
+
+.footer-container h3 p{
+    font-size: 20px;
+}
+
+.footer-left{
+    width: 30%;
+    color: white;
+}
+
+.footer-middle{
+    width: 30%;
+    color: white;
+    margin: 10px 100px;
+    padding: 0 50px;
+}
+
+.footer-right{
+    
+}
+
+.footer-right i{
+    font-size: 50px;
+    color: white;
+}
+
+.footer-container, 
+.footer-left, 
+.footer-middle, 
+.footer-right {
+    display: inline-block;
+}
+
+
